@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[https://biomathealth.com/checkout/]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-02-27T07:21:10 IST" name="Default suite" finished-at="2024-02-27T07:23:37 IST" duration-ms="146917">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T07:21:10 IST" name="Default test" finished-at="2024-02-27T07:23:37 IST" duration-ms="146917">
+      <class name="testscripts.testProduct">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:testscripts.testProduct@2b91004a]" started-at="2024-02-27T07:21:10 IST" name="openApp" finished-at="2024-02-27T07:21:33 IST" duration-ms="22608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testProduct()[pri:0, instance:testscripts.testProduct@2b91004a]" started-at="2024-02-27T07:21:33 IST" name="testProduct" finished-at="2024-02-27T07:23:36 IST" duration-ms="123861" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[https://biomathealth.com/checkout/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testProduct -->
+        <test-method is-config="true" signature="CloseApp(org.testng.ITestResult)[pri:0, instance:testscripts.testProduct@2b91004a]" started-at="2024-02-27T07:23:36 IST" name="CloseApp" finished-at="2024-02-27T07:23:37 IST" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProduct status=SUCCESS method=testProduct.testProduct()[pri:0, instance:testscripts.testProduct@2b91004a] output=https://biomathealth.com/checkout/]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testscripts.testProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
