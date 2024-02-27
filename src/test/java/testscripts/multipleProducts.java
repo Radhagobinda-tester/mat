@@ -44,5 +44,9 @@ public class multipleProducts  extends Baseclass {
 			Thread.sleep(20000);
 		    b.uploadBtn();
 		    Thread.sleep(20000);
+		    
+		    Runtime.getRuntime().exec("F:\\Autoit\\q.exe");
+		    
+		    Thread.sleep(20000);
 	 }
 }

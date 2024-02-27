@@ -39,8 +39,11 @@ public class bioacoustic_mat {
         dropdown.selectByVisibleText("$1850 BioAcoustic Mat (massage table size)");
     }
 
-    public void uploadBtn() {
+    public void uploadBtn()  {
         upload.click();
+       
     }
+    
+   
 }
 
